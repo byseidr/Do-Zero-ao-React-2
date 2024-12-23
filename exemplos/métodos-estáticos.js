@@ -25,7 +25,6 @@ console.log(Carro.validarModelo("A")); // false
 console.log(carro1.validarModelo("SUV")); // TypeError: carro1.validarModelo is not a function
 
 // Exemplo 2 - Erro ao acessar métodos normais em um método estático
-
 class Carro {
     constructor(modelo) {
         if (Carro.validarModelo(modelo)) {
